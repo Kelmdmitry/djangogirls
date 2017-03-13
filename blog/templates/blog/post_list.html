@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Django blog</title>
+    </head>
+    <body>
+		<ul>
+		{% for post in posts %}
+			<li>{{ post }}</li>
+		{% endfor %}
+		</ul>
+    </body>
+</html>
